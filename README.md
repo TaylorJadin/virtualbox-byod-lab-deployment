@@ -3,7 +3,7 @@ These are some install scripts and notes I put together to support our CS progra
 At some point I should add some context here on how this all works, but for this is mostly for my own purposes. If you have questions or would like to use my code yourself but can't figure things out, get in contact with me.
 
 
-## Checklist of steps to perform updates, shrink the size of the image, and re-export to an OVA
+## Checklist of steps to perform updates
 
 ### Updates
 - [ ] windows update
@@ -11,6 +11,7 @@ At some point I should add some context here on how this all works, but for this
 - [ ] make sure guest additions are up to date
 - [ ] ninite file in `c:\maintenance tools`
 
+## Shrink the size of the image
 
 ### Clean up Windows
 - [ ] if you need to uninstall anything: revo uninstaller in `c:\maintenance tools`
@@ -32,6 +33,8 @@ This will write a new VHD file that is smaller
 ### Delete the .vmds file and add the .vdi file as a storage device
 - [ ] Settings --> storage -> CompSci-disk001.vmdk [Delete] THEN
    - Add the vdi file, make sure to click on the sata controller
+
+## Export steps
 
 ### Export the OVA
 - [ ] File --> Export appliance
