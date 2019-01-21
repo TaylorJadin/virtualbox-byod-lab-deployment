@@ -25,25 +25,24 @@ Just a two-liner bash script that renames a flash drive and copies the files ove
 ## Shrink the size of the image
 
 ### Clean up Windows
-- [x] if you need to uninstall anything: revo uninstaller in `c:\maintenance tools`
-- [x] Disk Cleanup (System Files)
-- [x] ccleaner in `c:\maintenance tools`
-- [x] windirstat in `c:\maintenance tools`
-- [x] winsxs foler `Dism.exe /online /Cleanup-Image /StartComponentCleanup /ResetBase`
+- [x] iI you need to uninstall anything: [Revo Uninstaller](https://www.revouninstaller.com/download-free-portable.php)
+- [x] Disk Cleanup (with System Files)
+- [x] [CCleaner](https://www.ccleaner.com/ccleaner/download/portable)
+- [x] [WinDirStat](https://windirstat.net/download.html)
+- [x] To clean up winsxs foler: `Dism.exe /online /Cleanup-Image /StartComponentCleanup /ResetBase`
 
 ### Vbox specific stuff
 We need to defrag the drive then write zeroes to the disk
-- [x] Defraggler in `c:\maintenance tools`
-- [ ] [SDelete](https://technet.microsoft.com/en-us/sysinternals/bb897443.aspx) in `c:\maintenance tools`
-  - `sdelete.exe c: -z`
+- [x] [Defraggler](https://www.ccleaner.com/defraggler/download/portable)
+- [ ] [SDelete](https://technet.microsoft.com/en-us/sysinternals/bb897443.aspx): `sdelete.exe c: -z`
 
 ### Convert .vmdk to .vdi and resize
-This will write a new VHD file that is smaller
+This will write a new virtual disk file that is smaller
 - [ ] `VboxManage.exe clonehd --format vdi [source].vmdk [target].vdi`
 
-### Delete the .vmds file and add the .vdi file as a storage device
+### Modify storage devices
+Add the .vdi file to the list of storage devices and remove the .vmdk file, make sure to use the sata controller
 - [ ] Settings --> storage -> CompSci-disk001.vmdk [Delete] THEN
-   - Add the vdi file, make sure to click on the sata controller
 
 ## Export steps
 
