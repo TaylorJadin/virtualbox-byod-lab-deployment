@@ -32,7 +32,7 @@ Just a two-liner bash script that renames a flash drive and copies the files ove
 
 ### Vbox specific stuff
 We need to defrag the drive then write zeroes to the disk
-- [ ] Defraggler in `c:\maintenance tools`
+- [x] Defraggler in `c:\maintenance tools`
 - [ ] [SDelete](https://technet.microsoft.com/en-us/sysinternals/bb897443.aspx) in `c:\maintenance tools`
   - `sdelete.exe c: -z`
 
