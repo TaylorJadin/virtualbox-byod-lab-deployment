@@ -2,7 +2,7 @@ These are some install scripts and notes I put together to support our CS progra
 
 At some point I should add some context here on how this all works, but for this is mostly for my own purposes. If you have questions or would like to use my code yourself but can't figure things out, get in contact with me.
 
-## Whats all this?
+## What's all this?
 
 ### Windows_Install.bat
 A crusty old batch file that installs chocolatey then uses chocolatey to install VBox and its dependencies. Then it imports the OVA file. I use a a batch file because I can force it to ask for admin privileges. At some point I should use something like Autohotkey to give it a gui.
