@@ -19,6 +19,7 @@ Just a two-liner bash script that renames a flash drive and copies the files ove
 - [x] windows update
 - [x] Chrome
 - [x] make sure guest additions are up to date
+- [x] Java 🤢
 - [x] ninite file in `c:\maintenance tools`
 
 ## Shrink the size of the image
