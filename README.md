@@ -13,14 +13,13 @@ Applescript that I build to a .app file that students run to install Vbox and im
 ### prepFlashDrive.command
 Just a two-liner bash script that renames a flash drive and copies the files over. I use this to quickly update our [sneakernet](https://en.wikipedia.org/wiki/Sneakernet) that we use to give Vbox and our image to students.
 
-
 ## Checklist of steps to perform updates
 
 ### Updates
-- [ ] windows update
-- [ ] Chrome
-- [ ] make sure guest additions are up to date
-- [ ] ninite file in `c:\maintenance tools`
+- [x] windows update
+- [x] Chrome
+- [x] make sure guest additions are up to date
+- [x] ninite file in `c:\maintenance tools`
 
 ## Shrink the size of the image
 
