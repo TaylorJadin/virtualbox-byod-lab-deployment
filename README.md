@@ -38,11 +38,10 @@ We need to defrag the drive then write zeroes to the disk
 
 ### Convert .vmdk to .vdi and resize
 This will write a new virtual disk file that is smaller
-- [ ] `VboxManage.exe clonehd --format vdi [source].vmdk [target].vdi`
+- [x] `/Applications/VirtualBox.app/Contents/MacOS/VBoxManage clonehd --format vdi [source].vmdk [target].vdi`
 
 ### Modify storage devices
-Add the .vdi file to the list of storage devices and remove the .vmdk file, make sure to use the sata controller
-- [ ] Settings --> storage -> CompSci-disk001.vmdk [Delete] THEN
+- [ ] Add the .vdi file to the list of storage devices and remove the .vmdk file, make sure to use the sata controller
 
 ## Export steps
 
