@@ -20,7 +20,7 @@ Just a two-liner bash script that renames a flash drive and copies the files ove
 - [x] Chrome
 - [x] make sure guest additions are up to date
 - [x] Java 🤢
-- [x] ninite file in `c:\maintenance tools`
+- [x] Run the Ninite file I keep in the VM
 
 ## Shrink the size of the image
 
