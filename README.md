@@ -24,11 +24,11 @@ Just a two-liner bash script that renames a flash drive and copies the files ove
 ## Shrink the size of the image
 
 ### Clean up Windows
-- [ ] if you need to uninstall anything: revo uninstaller in `c:\maintenance tools`
-- [ ] Disk Cleanup (System Files)
-- [ ] ccleaner in `c:\maintenance tools`
-- [ ] windirstat in `c:\maintenance tools`
-- [ ] winsxs foler `Dism.exe /online /Cleanup-Image /StartComponentCleanup /ResetBase`
+- [x] if you need to uninstall anything: revo uninstaller in `c:\maintenance tools`
+- [x] Disk Cleanup (System Files)
+- [x] ccleaner in `c:\maintenance tools`
+- [x] windirstat in `c:\maintenance tools`
+- [x] winsxs foler `Dism.exe /online /Cleanup-Image /StartComponentCleanup /ResetBase`
 
 ### Vbox specific stuff
 We need to defrag the drive then write zeroes to the disk
