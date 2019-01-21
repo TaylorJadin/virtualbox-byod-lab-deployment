@@ -34,7 +34,7 @@ Just a two-liner bash script that renames a flash drive and copies the files ove
 ### Vbox specific stuff
 We need to defrag the drive then write zeroes to the disk
 - [x] [Defraggler](https://www.ccleaner.com/defraggler/download/portable)
-- [ ] [SDelete](https://technet.microsoft.com/en-us/sysinternals/bb897443.aspx): `sdelete.exe c: -z`
+- [x] [SDelete](https://technet.microsoft.com/en-us/sysinternals/bb897443.aspx): `sdelete.exe c: -z`
 
 ### Convert .vmdk to .vdi and resize
 This will write a new virtual disk file that is smaller
