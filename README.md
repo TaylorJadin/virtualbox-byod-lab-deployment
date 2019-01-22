@@ -41,14 +41,14 @@ This will write a new virtual disk file that is smaller
 - [x] `/Applications/VirtualBox.app/Contents/MacOS/VBoxManage clonehd --format vdi [source].vmdk [target].vdi`
 
 ### Modify storage devices
-- [ ] Add the .vdi file to the list of storage devices and remove the .vmdk file, make sure to use the sata controller
+- [x] Add the .vdi file to the list of storage devices and remove the .vmdk file, make sure to use the sata controller
 
 ## Export steps
 
 ### Export the OVA
-- [ ] File --> Export appliance
+- [x] File --> Export appliance
 
 ### Test DarkGDK
-- [ ] `Desktop\sncDarkGDK2010-32first.sln` in Visual Studio
+- [x] `Desktop\sncDarkGDK2010-32first.sln` in Visual Studio
    - double click
    - Debug menu, Start without Debugging, Yes
