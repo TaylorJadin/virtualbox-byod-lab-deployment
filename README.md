@@ -65,5 +65,5 @@ This will write a new virtual disk file that is smaller
 `sudo spctl -a -v macOS_install.app`
 
 ### Zip it
-ditto -c -k --sequesterRsrc --keepParent macOS_install.app macOS_install.zip
+`ditto -c -k --sequesterRsrc --keepParent macOS_install.app macOS_install.zip`
    
