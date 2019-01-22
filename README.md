@@ -52,3 +52,18 @@ This will write a new virtual disk file that is smaller
 - [x] `Desktop\sncDarkGDK2010-32first.sln` in Visual Studio
    - double click
    - Debug menu, Start without Debugging, Yes
+   
+## macOS build notes
+
+### Make the .app
+- Open up script using Script Editor
+- File --> Export
+   - File format = applications
+   - Code Sign = Developer ID Application
+   
+### Verify codesign
+`sudo spctl -a -v macOS_install.app`
+
+### Zip it
+ditto -c -k --sequesterRsrc --keepParent macOS_install.app macOS_install.zip
+   
