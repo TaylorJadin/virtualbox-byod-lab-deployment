@@ -1,2 +1,5 @@
-diskutil rename CompSci18 CSFall2018
-rsync -aP --stats --human-readable --exclude '.Spotlight-V100'  ~/Desktop/CSFall2018/ /Volumes/CSFall2018 --delete
+prevname=CSFall2018
+name=CSspring19
+
+diskutil rename $prevname $name
+rsync -aP --stats --human-readable --exclude '.Spotlight-V100'  ~/Desktop/$name/ /Volumes/$name --delete
