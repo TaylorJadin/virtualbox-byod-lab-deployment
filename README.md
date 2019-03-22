@@ -5,15 +5,16 @@ At some point I should add some context here on how this all works, but for this
 ## What's all this?
 
 ### Windows_Install.bat
-A crusty old batch file that installs chocolatey then uses chocolatey to install VBox and its dependencies. Then it imports the OVA file. I use a a batch file because I can force it to ask for admin privileges. At some point I should use something like Autohotkey to give it a gui.
+A crusty old batch file that installs chocolatey then uses chocolatey to install VBox and its dependencies. Then it imports the OVA file. I use a a batch file because the needs are for this are pretty basic. At some point I should use something like Autohotkey to give it a gui.
 
 ### macOS_Install.applescript
-Applescript that I build to a .app file that students run to install Vbox and import the OVA file. This one does not depend on a package manager like chocolatey, it actaully downloads the install dmg and install Vbox all on its own. Eventually I would like to write the windows installer to work this way.
+Applescript that I build to a .app file that students run to install Vbox and import the OVA file. This one does not depend on a package manager like chocolatey, it actaully downloads the install dmg and install Vbox all on its own. Eventually I would like to write the windows installer to work more like this.
 
 ### prepFlashDrive.command
-Just a two-liner bash script that renames a flash drive and copies the files over. I use this to quickly update our [sneakernet](https://en.wikipedia.org/wiki/Sneakernet) that we use to give Vbox and our image to students.
+Just a quick bash script that renames a flash drive and copies the files over. I use this to quickly update our [sneakernet](https://en.wikipedia.org/wiki/Sneakernet) that we use to give Vbox and our image to students.
 
 ## Checklist of steps to perform updates
+This my personal check list of steps to update the actual VM before I load up the flash drives
 
 ### Updates
 - [x] windows update
