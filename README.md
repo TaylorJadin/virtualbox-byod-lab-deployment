@@ -26,7 +26,7 @@ This my personal check list of steps to update the actual VM before I load up th
 ## Shrink the size of the image
 
 ### Clean up Windows
-- [x] iI you need to uninstall anything: [Revo Uninstaller](https://www.revouninstaller.com/download-free-portable.php)
+- [x] if you need to uninstall anything: [Revo Uninstaller](https://www.revouninstaller.com/download-free-portable.php)
 - [x] Disk Cleanup (with System Files)
 - [x] [CCleaner](https://www.ccleaner.com/ccleaner/download/portable)
 - [x] [WinDirStat](https://windirstat.net/download.html)
