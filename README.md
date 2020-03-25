@@ -5,7 +5,7 @@ At some point I should add some context here on how this all works, but for now 
 ## What's all this?
 
 ### Windows_Install.bat
-A batch file that installs chocolatey then uses chocolatey to install VBox and its dependencies. Then it imports the OVA file. I use a a batch file because the needs for this are pretty basic. At some point I should use something like Autohotkey to give it a gui.
+A crusty old batch file that installs chocolatey then uses chocolatey to install VBox and its dependencies. Then it imports the OVA file. I use a a batch file because the needs for this are pretty basic. At some point I should use something like Autohotkey to give it a gui.
 
 ### macOS_Install.applescript
 Applescript that I build to a .app file that students run to install Vbox and import the OVA file. This one does not depend on a package manager like chocolatey, it actaully downloads the install dmg and install Vbox all on its own. Eventually I would like to write the windows installer to work more like this.
